@@ -2,14 +2,16 @@
   1. = GLOBAL
   2. = NAVIGATION
   3. = GENERAL
-  4. = LECTURES
-  5. = VIDEO
-  6. = ANIMATIONS
-  7. = MOBILE
-  8. = ICON CLOSED
-  9. = ICON OPEN
-	10. = MOBILE GENERAL
-
+  4. = HOMEPAGE
+  5. = ABOUT
+  6. = VIDEO
+  7. = LECTURES
+  8. = TOURS
+  9. = ANIMATIONS
+  10. = MOBILE
+  11. = ICON CLOSED
+  12. = ICON OPEN
+	13. = MOBILE GENERAL
 */
 
 /* === GLOBAL === */
@@ -50,6 +52,7 @@ h2 {
 
 p {
 	color: #808080;
+	margin-top: 0;
 }
 
 ul {
@@ -108,6 +111,8 @@ ul {
   color: #7a00cc;
 }
 
+/* === GENERAL === */
+
 .window-container {
 	display: block;
 	position: relative;
@@ -121,12 +126,24 @@ ul {
 	display: block;
 	vertical-align: middle;
 	margin: auto;
-	padding: 0 15% 28px 15%;
+	padding: 0 10% 28px 10%;
 	max-width: 85%;
 	max-height: 85%;
 }
 
-/* === GENERAL === */
+.content-container {
+	margin: auto;
+	margin-top: 64px;
+	padding: 28px 48px 48px 48px;
+	max-width: 1096px;
+	max-height: 100%;
+}
+
+.content-container h2 {
+	margin: 0 0 24px 0;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
 
 .slideshow-container {
   margin: auto;
@@ -154,26 +171,32 @@ ul {
 	font-size: 1.05em;
 }
 
-/* === LECTURES === */
+/* === HOMEPAGE === */
 
-.text-container ul {
-	list-style-type: none;
+.homepage img {
+	padding: 0 0 28px 0;
+}
+
+/* === ABOUT === */
+
+.about h2 {
+	text-align: left;
+	padding-left: 48px;
+}
+
+.about img {
+	float: right;
+	padding: 4px 0 28px 5%;
 }
 
 /* === VIDEOS === */
 
-.content-container {
-	margin: auto;
-	padding: 28px 48px 48px 48px;
-	max-width: 1000px;
-	max-height: 100%;
+.videos h2 {
+	text-align: center;
 }
 
-.content-container h2 {
-	text-align: center;
-	margin: 64px 0 24px 0;
-	font-weight: normal;
-	letter-spacing: 1px;
+.videos h2:not(:first-of-type) {
+	margin-top: 24px;
 }
 
 .youtube-wrapper {
@@ -190,6 +213,18 @@ ul {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+/* === LECTURES === */
+
+.text-container ul {
+	list-style-type: none;
+}
+
+/* === TOURS === */
+
+.tours img {
+	padding: 0 0 28px 0;
 }
 
 /* === ANIMATIONS === */
@@ -234,6 +269,7 @@ ul {
 	}
 
 	.navigation-header .title {
+		display: inline-block;
 	  font-size: 2em;
 	  letter-spacing: 3px;
 	  padding-right: 28px;
@@ -247,7 +283,7 @@ ul {
 	  padding: 24px 24px 0 0;
 	}
 
-	.navigation a{
+	.navigation a {
 		margin: 10px 0 10px 8px;
 		text-align: center;
 		font-size: 1.1em;
@@ -268,20 +304,35 @@ ul {
 
 	/* === MOBILE GENERAL === */
 
-	.window-container img {
-		padding: 0 5% 0 5%;
+	.window-container img,
+	.about img,
+	.tours img {
+		float: none;
+		padding: 0 5% 16px 5%;
+		max-width: 100%;
+		max-height: 100%;
 	}
 
 	.text-container {
-		padding: 28px 28px 28px 28px; 
+		padding: 0 16px 28px 16px; 
 	}
 
 	.content-container {
 		padding: 0 0 48px 0;
+		margin-top: 0;
 	}
 
-	.content-container h2:first-of-type {
-		margin: 0 0 24px 0;
+	.content-container h2 {
+		margin: 16px 0 24px 0;
+	}
+
+	.about h2 {
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.videos h2:first-of-type {
+		margin-top: 0;
 	}
 
 }
