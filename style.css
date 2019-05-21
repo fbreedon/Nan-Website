@@ -4,14 +4,15 @@
   3. = GENERAL
   4. = HOMEPAGE
   5. = ABOUT
-  6. = VIDEO
-  7. = LECTURES
-  8. = TOURS
-  9. = ANIMATIONS
-  10. = MOBILE
-  11. = ICON CLOSED
-  12. = ICON OPEN
-	13. = MOBILE GENERAL
+  6. = PUBLICATIONS
+  7. = VIDEO
+  8. = LECTURES
+  9. = TOURS
+  10. = ANIMATIONS
+  11. = MOBILE
+  12. = ICON CLOSED
+  13. = ICON OPEN
+	14. = MOBILE GENERAL
 */
 
 /* === GLOBAL === */
@@ -133,7 +134,7 @@ ul {
 
 .content-container {
 	margin: auto;
-	margin-top: 64px;
+	margin-top: 32px;
 	padding: 28px 48px 48px 48px;
 	max-width: 1096px;
 	max-height: 100%;
@@ -171,6 +172,20 @@ ul {
 	font-size: 1.05em;
 }
 
+.text-container u {
+	text-decoration: underline;
+}
+
+.caption-text {
+	text-align: center;
+	font-style: italic;
+	font-size: .95em;
+	color: #999999;
+	padding-bottom: 24px;
+	max-width: 696px;
+	margin: auto;
+}
+
 /* === HOMEPAGE === */
 
 .homepage img {
@@ -184,9 +199,24 @@ ul {
 	padding-left: 48px;
 }
 
-.about img {
+.about .image-container {
 	float: right;
 	padding: 4px 0 28px 5%;
+	max-width: 400px;
+}
+
+.about img {
+	padding: 0 0 16px 0;
+}
+
+/* === PUBLICATIONS === */
+
+.publication-box {
+	text-align: center;
+}
+
+.publication-box p {
+	font-style: italic;
 }
 
 /* === VIDEOS === */
@@ -324,6 +354,12 @@ ul {
 
 	.content-container h2 {
 		margin: 16px 0 24px 0;
+	}
+
+	.about .image-container {
+		float: none;
+		margin: auto;
+		padding: 0 0 16px 0;
 	}
 
 	.about h2 {
