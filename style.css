@@ -16,9 +16,21 @@
 	15. = MOBILE GENERAL
 */
 
+/* COLORS
+	- title/headers				#00ace6
+	- navigation					#808080
+	- active navigation		#0066ff
+	- hover								#bfbfbf
+	- body text 					#808080
+	- caption text 				#999999
+	- video headers				#333333
+
+*/
+
 /* === GLOBAL === */
 
 * {
+  font-family: 'Nunito Sans', sans-serif;
   box-sizing: border-box;
 }
 
@@ -28,7 +40,6 @@ html {
 }
 
 body {
-  font-family: "Arial";
   margin: 0;
 }
 
@@ -53,7 +64,7 @@ h2 {
 }
 
 h3 {
-	color: #7a00cc;
+	color: #00ace6;
 	font-weight: normal;
 	font-size: 1.4em;
 }
@@ -84,24 +95,25 @@ ul {
 
 .navigation {
   text-align: center;
-  padding-top: 32px;
+  padding-top: 8px;
 }
 
 .navigation a {
-	font-size: 1.5em;
-	letter-spacing: 2px;
-	text-decoration: none;
-	color: #333333;
-	margin: 0 16px;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #808080;
+	margin: 0 8px;
 }
 
 .navigation a.active {
-	color: #8a00e6;
+	color: #0066ff;
   text-shadow: 1px 1px #d9cde4;
 }
 
 .navigation a:hover:not(.active) {
-	color: #8c8c8c;
+	color: #bfbfbf;
 }
 
 .footer {
@@ -116,7 +128,7 @@ ul {
   font-size: 2.3em;
   letter-spacing: 4px;
   text-decoration: none;
-  color: #7a00cc;
+  color: #00ace6;
 }
 
 /* === GENERAL === */
@@ -132,7 +144,7 @@ ul {
 
 .content-container {
 	margin: auto;
-	margin-top: 32px;
+	margin-top: 16px;
 	padding: 28px 48px 48px 48px;
 	max-width: 1096px;
 	max-height: 100%;
@@ -232,12 +244,12 @@ ul {
 }
 
 .about h3 a {
-	color: #7a00cc;
+	color: #00ace6;
 	text-decoration: none;
 }
 
 .about h3 a:hover {
-	color: #8c8c8c;
+	color: #bfbfbf;
 }
 
 .about .image-container {
