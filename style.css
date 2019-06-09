@@ -61,10 +61,12 @@ h1 {
 
 h2 {
 	color: #333333;
+	text-transform: uppercase;
 }
 
 h3 {
 	color: #00ace6;
+	text-transform: uppercase;
 	font-weight: normal;
 	font-size: 1.4em;
 }
@@ -76,6 +78,10 @@ p {
 
 ul {
 	color: #808080;
+}
+
+ul li {
+	list-style-type: disc;
 }
 
 /* === NAVIGATION === */
@@ -116,19 +122,19 @@ ul {
 	color: #bfbfbf;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  padding: 0 0 0 32px;
-  width: 100%;
-}
-
 .title {
 	text-transform: uppercase;
   font-size: 2.3em;
   letter-spacing: 4px;
   text-decoration: none;
   color: #00ace6;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 0 32px;
+  width: 100%;
 }
 
 /* === GENERAL === */
@@ -158,7 +164,6 @@ ul {
 
 .content-container img:not(.grid-img) {
 	display: block;
-	vertical-align: middle;
 	margin: auto;
 	padding: 0 10% 28px 10%;
 	max-width: 85%;
@@ -260,6 +265,17 @@ ul {
 
 .about .image-container img {
 	padding: 0 0 16px 0;
+}
+
+.social-icons a {
+	padding: 0 4px;
+	font-size: 32px;
+	text-decoration: none;
+	color: #808080;
+}
+
+.social-icons a:hover {
+	color: #bfbfbf;
 }
 
 /* === PUBLICATIONS === */
