@@ -9,32 +9,37 @@
 
 <url>
   <loc>https://nanturner.com/</loc>
-  <lastmod>2019-06-22T02:17:04+00:00</lastmod>
+  <lastmod>2019-06-27T22:21:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://nanturner.com/about.html</loc>
+  <lastmod>2019-06-27T22:21:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://nanturner.com/publications.html</loc>
-  <lastmod>2019-06-22T02:17:04+00:00</lastmod>
+  <lastmod>2019-06-27T22:21:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://nanturner.com/lectures.html</loc>
-  <lastmod>2019-06-22T02:17:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://nanturner.com/portfolio.html</loc>
-  <lastmod>2019-06-22T02:17:04+00:00</lastmod>
+  <lastmod>2019-06-27T22:21:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://nanturner.com/tours.html</loc>
-  <lastmod>2019-06-22T02:17:04+00:00</lastmod>
+  <lastmod>2019-06-27T22:21:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nanturner.com/portfolio.html</loc>
+  <lastmod>2019-06-27T22:21:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://nanturner.com/contact.html</loc>
-  <lastmod>2019-06-22T02:17:04+00:00</lastmod>
+  <lastmod>2019-06-27T22:21:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
